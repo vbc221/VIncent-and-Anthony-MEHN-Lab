@@ -1,0 +1,39 @@
+*{
+  list-style: none;
+}
+
+body{
+  background:lightblue;
+}
+
+h1{
+  text-align: center;
+  font-size:40px;
+}
+
+ul li{
+  display:flex;
+  justify-content: center;
+  margin-right:40px;
+}
+
+li a{
+  color:black;
+  text-decoration: none;
+}
+
+#create{
+  border: 1px solid black;
+  display:flex;
+  justify-content: center;
+  background:white;
+  font-size:17px;
+  padding: 10px 10px;
+  border-radius:20%;
+  margin:auto;
+}
+
+#create a{
+  color:blue;
+  text-decoration: none;
+}
