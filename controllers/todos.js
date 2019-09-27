@@ -33,6 +33,7 @@ router.put("/:id", (req, res) => {
 router.get("/", (req, res) => {
   ToDo.find({})
     .then(todos => {
+      console.log("work?")
       res.render("index", {
         todos
       });
