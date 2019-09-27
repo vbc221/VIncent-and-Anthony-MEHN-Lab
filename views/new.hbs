@@ -1,13 +1,15 @@
-<h2>New To Do:</h2>
+<h2>New Recipe :</h2>
 
-<form action="/" method="post">
-  <label for="title">Title</label>
-  <input type="text" value="{{title}}" name="title" required>
-  <label for="description">Description</label>
-  <input type="text" value="{{description}}" name="description" required>
-  <label for="instructions">Instructions</label>
-  <input type="text" value="{{instructions}}" name="instructions" required>
-  <label for="title">Ingredients</label>
-  <input type="text" value="{{ingredients}}" name="ingredients" required>
-  <input type="submit" value="Create">
+<form id='new' action="/" method="post" name='newForm'>
+  <label class='label' for="title">Title</label>
+  <input class='new' type="text" value="{{title}}" name="title" placeholder="Recipe Name"  required>
+  <label class='label' for="name">Name</label>
+  <input class='new' type="text" value="{{name}}" name="name" placeholder="Your Name" required>
+  <label class='label' for="description">Description</label>
+  <input class='new extraSpace' type="text" value="{{description}}" name="description" placeholder="What am I?" required>
+  <label class='label' for="instructions">Instructions</label>
+  <input class='new extraSpace' type="text" value="{{instructions}}" name="instructions" placeholder="How do you make me? Please include numbered steps" required>
+  <label class='label' for="title">Ingredients</label>
+  <input class='new extraSpace' type="text" value="{{ingredients}}" name="ingredients" placeholder="What am I made of?" required>
+  <input id='newStuff' type="submit" value="Create">
 </form>

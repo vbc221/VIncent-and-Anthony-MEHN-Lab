@@ -1,24 +1,32 @@
 *{
   list-style: none;
+  font-family: 'Mansalva',
+  cursive;
 }
 
 body{
-  background:lightblue;
+  background-image: url('https://cdn.pixabay.com/photo/2017/06/01/18/46/cook-2364221_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
 }
 
 h1{
   text-align: center;
   font-size:40px;
+  color:white;
 }
 
 ul li{
   display:flex;
   justify-content: center;
   margin-right:40px;
+  font-size:20px;
+  text-transform: uppercase;
 }
 
 li a{
-  color:black;
+  color:white;
   text-decoration: none;
 }
 
@@ -27,13 +35,89 @@ li a{
   display:flex;
   justify-content: center;
   background:white;
-  font-size:17px;
+  font-size:15px;
   padding: 10px 10px;
   border-radius:20%;
   margin:auto;
 }
 
 #create a{
-  color:blue;
+  color:black;
   text-decoration: none;
+}
+
+#new{
+  display:flex;
+  flex-direction: column;
+}
+.new{
+  width:75%;
+  margin:0 auto;
+  resize: none;
+}
+textarea {
+  resize: none;
+  width:75%;
+  margin:0 auto;
+}
+
+.extraSpace{
+  height:70px;
+}
+
+.label{
+  margin: 0 auto;
+  color:white;
+}
+#newStuff{
+  margin-top:20px;
+  width:30%;
+  margin:20px auto;
+  font-size:20px;
+  border-radius:5%;
+}
+
+h2{
+  text-align: center;
+  color:white;
+  font-size:20px;
+}
+
+#delete{
+  color:black;
+  width:70px;
+  font-size: 13px;
+  margin-right:20px;
+  border-radius: 5%;
+  height:23px;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+}
+
+.show button{
+  width:70px;
+  border-radius:15%;
+  height:22px;
+}
+
+.show button a{
+  text-decoration: none;
+  color:black;
+  font-size:13px;
+}
+
+#edit{
+  display:flex;
+  flex-direction:column;
+}
+
+#changeStuff {
+  margin-top: 20px;
+  width: 30%;
+  margin: 20px auto;
+  font-size: 20px;
+  border-radius: 5%;
 }
