@@ -2,7 +2,9 @@ const mongoose = require("../db/connection");
 
 const ToDoSchema = new mongoose.Schema({
   title: String,
-  complete: Boolean
+  description: String,
+  instructions:String,
+  ingredients:String
 });
 
 const ToDo = mongoose.model("Todo", ToDoSchema);

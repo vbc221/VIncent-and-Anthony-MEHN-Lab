@@ -1,15 +1,13 @@
 <form action="/{{id}}?_method=put" method="post">
   <p>
     <label for="title">Title</label>
-    <input type="text" value="{{title}}" name="title">
-  </p>
-  <p>
-    <label for="complete">Complete</label>
-    {{#if complete}}
-    <input type="checkbox" name="complete" checked>
-    {{else}}
-    <input type="checkbox" name="complete">
-    {{/if}}
+    <input type="text" value="{{title}}" name="title" required>
+    <label for="description">Description</label>
+    <input type="text" value="{{description}}" name="description" required>
+    <label for="instructions">Instructions</label>
+    <input type="text" value="{{instructions}}" name="instructions" required>
+    <label for="title">Ingredients</label>
+    <input type="text" value="{{ingredients}}" name="ingredients" required>
   </p>
   <input type="submit" value="Update">
 </form>
