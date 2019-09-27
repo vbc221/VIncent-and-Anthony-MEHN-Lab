@@ -18,11 +18,6 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-  if (req.body.complete === "on") {
-    req.body.complete = true;
-  } else {
-    req.body.complete = false;
-  }
   ToDo.findOneAndUpdate({
     _id: req.params.id
   }, req.body).then(todo => {

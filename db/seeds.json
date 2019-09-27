@@ -1,13 +1,19 @@
 [{
-    "title": "Wash the dishes",
-    "complete": false
+    "title": "Apple pie",
+    "description": "It is a pie", 
+    "instructions": "bake it",
+    "ingredients":"apples"
   },
   {
-    "title": "Feed the dog",
-    "complete": false
+    "title": "Watermelon",
+    "description": "its a fruit",
+    "instructions": "buy it,cut it,eatit",
+    "ingredients": "watermelon"
   },
   {
-    "title": "Take out the trash",
-    "complete": false
+    "title": "Salad",
+    "description": "Not good",
+    "instructions": "go outside and grab grass",
+    "ingredients": "natural no perservatives organic food"
   }
 ]
